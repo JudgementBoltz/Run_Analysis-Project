@@ -1,5 +1,9 @@
 # Run_Analysis-Project
-This program runs an analysis on a set of data provided then returns a tidy data set.
+This program runs an analysis on a set of data provided then returns a tidy data set. It takes all of the raw data and merges it to one dataframe. Using only the observations for features with mean() and std(), the mean of each feature;s observations for each subject performing a specific activity is taken. Finally a tidy data set is returned in 4 columns labeled in this order:
+<br>
+<table><tr><td>Subject</td><td>Activity</td><td>Feature</td><td>Mean</td></tr></table>
+
+For information on features refer to "CodeBook.txt"
 
 Place this script in the UCI HAR Dataset sub-directory of the unzipped directory getdata-projectfiles-UCI HAR Dataset provided in the assignment.
 
