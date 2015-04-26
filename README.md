@@ -19,3 +19,4 @@ An empty dataframe called tidy_data is initialized to store tidy data from analy
 Next, a for loop cycles through all subject labels(for subjects 1-30). For each subject and each activity, the mean value of all features that are measurements of mean or standard deviation is returned then added into the the tidy_data dataframe.
 
 Lastly descriptive column names are added to the tidy_data dataframe, and the data is written to the file "tidy_data.txt"
+This data is meant to be read into R using the read.csv() function.
