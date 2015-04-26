@@ -9,7 +9,7 @@ Place this script in the UCI HAR Dataset sub-directory of the unzipped directory
 
 The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.  This script will access both the Test and Train subdirectories to load in raw data to R dataframes.
 
-x_test, y_test, and subject_test files are read into dataframes then merged so that each observation from x_test will correlate to the subject # from subject_train, and an activity label from y_test.
+x_test, y_test, and subject_test files are read into dataframes then merged so that each observation from x_test will correlate to the subject # from subject_test, and an activity label from y_test.
 
 x_train, y_train, and subject_train files are read into dataframes then merged so that each observation from x_train will correlate to the subject # from subject_train, and an activity label from y_train.
 
